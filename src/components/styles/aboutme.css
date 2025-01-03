@@ -1,0 +1,61 @@
+/* About Me Section */
+.about-me {
+  margin: 0 auto; /* Centers the section horizontally */
+  padding: 40px 20px; /* Balanced padding for all devices */
+  text-align: center;
+  max-width: 1200px; /* Optimized width for most screens */
+  border-radius: 15px; /* Smooth rounded corners */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Deeper shadow for more emphasis */
+  overflow: hidden; /* Ensures content stays within the rounded border */
+  background: none;
+  animation: slideInLeft 1.5s ease-in-out;
+  animation-delay: 0.3s;
+  animation-fill-mode: both;
+}
+
+/* Heading Animation */
+.about-me h2 {
+  margin-bottom: 25px; /* Spacing below heading */
+  font-size: 2.5rem; /* Slightly larger heading */
+  font-weight: bold; /* Emphasis on the title */
+  color: #ffffff; /* White text for better contrast */
+  text-transform: uppercase; /* Optional capitalization */
+  letter-spacing: 1px; /* Spacing between letters */
+  animation: fadeInDown 1.5s ease-in-out;
+  animation-delay: 0.6s;
+  animation-fill-mode: both;
+  background: none;
+}
+
+/* Container Inside About-Me Section */
+.about-me .con2 {
+  padding: 2%;
+  background: none;
+  border-radius: 8px;
+  animation: fadeIn 1.5s ease-in-out;
+  animation-delay: 0.9s;
+  animation-fill-mode: both;
+}
+
+/* Paragraph Animation */
+.about-me p {
+  max-width: 750px; /* Restricts width for better readability */
+  margin: 0 auto 20px; /* Centers and adds spacing below */
+  font-size: 1.2rem; /* Slightly larger for clarity */
+  line-height: 1.8; /* Improved spacing between lines */
+  color: lightblue; /* Subtle light text for better contrast */
+  animation: fadeInUp 1.5s ease-in-out;
+  animation-delay: 1.2s;
+  animation-fill-mode: both;
+  background: none;
+}
+
+/* Strong Text Animation */
+.about-me strong {
+  background: none;
+  font-weight: bold;
+  color: #ffffff;
+  animation: fadeIn 1.5s ease-in-out;
+  animation-delay: 1.5s;
+  animation-fill-mode: both;
+}

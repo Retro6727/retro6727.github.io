@@ -1,0 +1,82 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  background: rgb(2,0,36);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Container Styling */
+.container {
+  padding: 30px 20px;
+  border-radius: 12px;
+  background: bisque;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  animation: slideInLeft 2s ease-in-out;
+  animation-delay: 0s; /* Initial animation starts immediately */
+  animation-fill-mode: both; /* Keeps the final state after animation */
+}
+
+/* Image Animation */
+img {
+  border-radius: 50%;
+  max-height: 100px;
+  animation: fadeIn 2s ease-in-out;
+  animation-delay: 5s;
+  animation-fill-mode: both;
+}
+
+/* Header Animation */
+.container h1 {
+  animation: fadeInDown 2s ease-in-out;
+  animation-delay: 7s;
+  animation-fill-mode: both;
+  background: none;
+  color: burlywood;
+}
+
+/* Subtitle Animation */
+.container i {
+  animation: fadeInUp 2s ease-in-out;
+  animation-delay: 10s;
+  animation-fill-mode: both;
+  background: none;
+  color: burlywood;
+}
+
+/* Navigation Buttons */
+.navigation-buttons {
+  margin-top: 20px;
+  animation: fadeIn 2s ease-in-out;
+  animation-delay: 12s;
+  animation-fill-mode: both;
+}
+
+button {
+  background: linear-gradient(to bottom, #c436cc, #388e3c);
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 12px 24px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 6px #2e7d32; /* Bottom shadow */
+  cursor: pointer;
+  transition: all 0.2s rotate-in;
+  text-transform: uppercase;
+}
+
+button:active {
+  box-shadow: 0 3px #aaa68289;
+  transform: translateY(3px); /* Button "press" effect */
+}
+
+button:hover {
+  background: linear-gradient(to right, #616187, #141d5f); /* Slightly lighter on hover */
+  transform: translateY(-2px); /* Slight upward hover effect */
+}

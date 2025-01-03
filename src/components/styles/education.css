@@ -1,0 +1,143 @@
+/* Education Section */
+.education {
+  margin: 0;
+  padding: 60px 20px; /* Increased padding for better spacing */
+  text-align: center;
+  max-width: 1200px; /* Controls width for larger screens */
+  margin: 0 auto; /* Centers the section */
+  border-radius: 12px; /* Rounded corners for soft edges */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  
+  /* Animation */
+  animation: fadeInUp 1.5s ease-in-out;
+  animation-delay: 0.3s;
+  animation-fill-mode: both;
+}
+
+/* Heading Animation */
+.education h1 {
+  margin-bottom: 30px; /* Increased spacing below the heading */
+  font-size: 2.5rem; /* Larger font size for better emphasis */
+  color: whitesmoke; /* Light color for better readability */
+  font-weight: bold; /* Added boldness for emphasis */
+  
+  /* Animation */
+  animation: fadeInDown 1.5s ease-in-out;
+  animation-delay: 0.6s;
+  animation-fill-mode: both;
+}
+
+/* Individual Education Items */
+.education-item {
+  margin-bottom: 30px; /* More space between education items */
+  background-color: bisque; /* Light background for each item */
+  padding: 20px;
+  border-radius: 8px; /* Slight rounding for individual items */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for each item */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+  
+  /* Animation */
+  animation: fadeIn 1.5s ease-in-out;
+  animation-delay: 0.9s;
+  animation-fill-mode: both;
+}
+
+.education-item:hover {
+  transform: translateY(-5px); /* Slight lift effect on hover */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Darker shadow on hover */
+}
+
+/* University/Institution Name Animation */
+.education-item h3 {
+  font-size: 1.8rem; /* Slightly larger university name */
+  color: #333;
+  font-weight: bold; /* Bold university name for emphasis */
+  margin-bottom: 10px; /* Added space below university name */
+  background: none;
+  
+  /* Animation */
+  animation: fadeInLeft 1.5s ease-in-out;
+  animation-delay: 1.2s;
+  animation-fill-mode: both;
+}
+
+/* Degree/Subheading Animation */
+.education-item em {
+  font-size: 1.4rem;
+  color: #555; /* Softer color for the degree/subheading */
+  margin-bottom: 10px; /* Added space below degree name */
+  background: none;
+  
+  /* Animation */
+  animation: fadeInRight 1.5s ease-in-out;
+  animation-delay: 1.4s;
+  animation-fill-mode: both;
+}
+
+/* Location Animation */
+.location {
+  font-size: 1.1rem;
+  color: #777; /* Lighter color for locations */
+  font-style: italic; /* Italicized for emphasis */
+  margin-top: 5px; /* Small margin on top for spacing */
+  background: none;
+  
+  /* Animation */
+  animation: fadeInUp 1.5s ease-in-out;
+  animation-delay: 1.6s;
+  animation-fill-mode: both;
+}
+
+/* Keyframe Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    transform: translateX(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    transform: translateX(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
